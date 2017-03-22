@@ -37,7 +37,7 @@ process.options = cms.untracked.PSet(
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
     version = cms.untracked.string('$Revision: 1.19 $'),
-    annotation = cms.untracked.string('Configuration/GenProduction/python/EXO-RunIISummer15wmLHEGS-00000-fragment.py nevts:51'),
+    annotation = cms.untracked.string('Configuration/GenProduction/python/EXO-RunIISummer15wmLHEGS-00000-fragment.py nevts:10000'),
     name = cms.untracked.string('Applications')
 )
 
@@ -111,7 +111,7 @@ process.generator = cms.EDFilter("Pythia8HadronizerFilter",
 
 
 process.externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
-    nEvents = cms.untracked.uint32(51),
+    nEvents = cms.untracked.uint32(10000),
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
