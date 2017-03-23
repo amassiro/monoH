@@ -32,7 +32,7 @@ process.source = cms.Source("PoolSource",
     secondaryFileNames = cms.untracked.vstring(),
     #firstEvent = cms.untracked.uint32(FIRSTEVENT),
     firstEvent = cms.untracked.uint32(1),
-    fileNames = cms.untracked.vstring (options.inputFiles),
+    fileNames = cms.untracked.vstring ("cmsgrid_final.lhe"),
 )
 
 
