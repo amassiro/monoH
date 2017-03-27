@@ -13,6 +13,8 @@ Run in local:
     cmsRun DR_template_cfg.py   
     cmsRun DR_step2_template_cfg.py   
 
+    cmsRun AOD_template_cfg.py   
+
     
 Time for wmLHE+GS:
 
