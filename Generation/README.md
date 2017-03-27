@@ -24,6 +24,7 @@ Time for wmLHE+GS:
 
     
     Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 27-Mar-2017 10:26:08.718 CEST
+    Begin processing the 999th record. Run 1, Event 999, LumiSection 1 at 27-Mar-2017 16:40:52.002 CEST
 
     
     
@@ -44,7 +45,10 @@ Time for DR (1 and 2):
     
 Latino
 
+    cd /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_26_patch1/src/LatinoTrees/AnalysisStep/test/
+    cmsenv
     
     sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh 400
+    sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh 1000
     
     latino->Draw("std_vector_fatjet_prunedmass[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");

@@ -2,7 +2,7 @@
 # using: 
 # Revision: 1.19 
 # Source: /local/reps/CMSSW/CMSSW/Configuration/Applications/python/ConfigBuilder.py,v 
-# with command line options: step2 --filein file:EXO-RunIISpring16DR80-03843_step1.root --fileout file:EXO-RunIISpring16DR80-03843.root --mc --eventcontent AODSIM,DQM --runUnscheduled --datatier AODSIM,DQMIO --conditions 80X_mcRun2_asymptotic_v14 --step RAW2DIGI,RECO,EI,DQM:DQMOfflinePOGMC --nThreads 4 --era Run2_2016 --python_filename EXO-RunIISpring16DR80-03843_2_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 400
+# with command line options: step2 --filein file:EXO-RunIISpring16DR80-03843_step1.root --fileout file:EXO-RunIISpring16DR80-03843.root --mc --eventcontent AODSIM,DQM --runUnscheduled --datatier AODSIM,DQMIO --conditions 80X_mcRun2_asymptotic_v14 --step RAW2DIGI,RECO,EI,DQM:DQMOfflinePOGMC --nThreads 4 --era Run2_2016 --python_filename EXO-RunIISpring16DR80-03843_2_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 1000
 import FWCore.ParameterSet.Config as cms
 
 from Configuration.StandardSequences.Eras import eras
@@ -24,7 +24,7 @@ process.load('DQMOffline.Configuration.DQMOfflineMC_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(400)
+    input = cms.untracked.int32(1000)
 )
 
 # Input source
@@ -39,7 +39,7 @@ process.options = cms.untracked.PSet(
 
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
-    annotation = cms.untracked.string('step2 nevts:400'),
+    annotation = cms.untracked.string('step2 nevts:1000'),
     name = cms.untracked.string('Applications'),
     version = cms.untracked.string('$Revision: 1.19 $')
 )
