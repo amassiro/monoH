@@ -6,9 +6,15 @@ wmLHE + GS
 
 Run in local:
 
+    /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_7_1_23/src/monoH/Generation
     cmsRun wmLHEGS_template_cfg.py   -----> EXO-RunIISummer15wmLHEGS-00000.root
+    cmsRun wmLHEG_template_cfg.py
+    
     
     cmsRun GS_template_cfg.py   
+    
+    
+    cd /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation
     
     cmsRun DR_template_cfg.py   
     cmsRun DR_step2_template_cfg.py   
@@ -51,4 +57,12 @@ Latino
     sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh 400
     sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh 1000
     
+    r00t latino_stepB_mc_numEvent1000.root
+    
     latino->Draw("std_vector_fatjet_prunedmass[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
+    latino->Draw("std_vector_fatjet_massdrop[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
+    
+    
+    
+    
+    
