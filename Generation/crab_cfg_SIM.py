@@ -23,7 +23,7 @@ config.Data.outputPrimaryDataset = 'monoHWWlvjj-TEST'
 
 config.Data.splitting = 'EventBased'
 config.Data.unitsPerJob = 100
-#config.Data.totalUnits = -1
+config.Data.totalUnits = -1
 config.Data.publication = True
 config.Data.publishDBS = 'phys03'
 #config.Data.outputDatasetTag = 'RSGravToGG_kMpl-02_M-750_TuneCUEP8M1_13TeV-pythia8_magnetOffBS0T_74X_mcRun2_0T_v0_MiniAODSIM'
