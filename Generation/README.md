@@ -11,6 +11,10 @@ Run in local:
     cmsRun wmLHEG_template_cfg.py
     
     
+    Before matching: total cross section = 3.507e-01 +- 8.570e-05 pb
+    After matching: total cross section = 3.507e-01 +- 8.570e-05 pb
+
+    
     cmsRun GS_template_cfg.py   
     
     
@@ -33,6 +37,15 @@ Time for wmLHE+GS:
     Begin processing the 999th record. Run 1, Event 999, LumiSection 1 at 27-Mar-2017 16:40:52.002 CEST
 
     
+    
+Publish GEN for later CRAB submission:
+
+    source /cvmfs/cms.cern.ch/crab3/crab.sh
+    crab submit crab_cfg_publish.py
+    
+    
+    cmsRun SIM_template_cfg.py
+    crab submit crab_cfg_SIM.py
     
     
 Time for DR (1 and 2):
