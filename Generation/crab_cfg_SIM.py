@@ -7,7 +7,7 @@ config = Configuration()
 import os
 
 config.section_('General')
-config.General.requestName = 'monoHWWlvjj'
+config.General.requestName = 'monoHWWlvjj-SIM'
 config.General.transferLogs = True
 config.General.transferOutputs = True
 
