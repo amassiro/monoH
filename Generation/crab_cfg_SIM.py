@@ -12,7 +12,7 @@ config.General.transferLogs = True
 config.General.transferOutputs = True
 
 config.section_('JobType')
-config.JobType.pluginName = 'Analysis'
+config.JobType.pluginName = 'PrivateMC'
 config.JobType.psetName = 'SIM_template_cfg.py'
 
 config.section_('Data')
