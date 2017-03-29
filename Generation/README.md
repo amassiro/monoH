@@ -41,6 +41,7 @@ Time for wmLHE+GS:
 Publish GEN for later CRAB submission:
 
     source /cvmfs/cms.cern.ch/crab3/crab.sh
+    
     crab submit crab_cfg_publish.py
     
     

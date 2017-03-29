@@ -18,7 +18,7 @@ config.JobType.psetName = 'SIM_template_cfg.py'
 config.section_('Data')
 config.Data.inputDataset = '/RSGravToGG_kMpl-001_M-750_TuneCUEP8M1_13TeV-pythia8_magnetOffBS0T_AODSIM_v3/amassiro-crab_monoHWWlvjj-54137679aec40900410ea308c9544bad/USER'
 #config.Data.inputDBS = 'global'
-config.Data.outputPrimaryDataset = 'monoHWWlvjj-TEST'
+#config.Data.outputPrimaryDataset = 'monoHWWlvjj-TEST'
 
 
 config.Data.splitting = 'EventBased'
