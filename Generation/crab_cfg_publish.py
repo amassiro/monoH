@@ -18,7 +18,8 @@ config.JobType.psetName = 'do_Mock_Publish.py'
 config.section_('Data')
 #config.Data.inputDataset = '/RSGravToGG_kMpl-02_M-750_TuneCUEP8M1_13TeV-pythia8/RunIISummer15GS-magnetOffBS0T_MCRUN2_71_V1-v1/GEN-SIM'
 #config.Data.inputDBS = 'global'
-config.Data.outputPrimaryDataset = 'monoHWW-lvjj_GEN_v0'
+#config.Data.outputPrimaryDataset = 'monoHWW-lvjj_GEN_v0'
+config.Data.outputPrimaryDataset = 'monoHWW-lvjj_GEN_v1'
 config.Data.userInputFiles = [
   '/store/user/amassiro/monoHWWlvjj/GEN/EXO-RunIISummer15wmLHES-00000.root',
   ]
