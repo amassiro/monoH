@@ -6,6 +6,7 @@
 import FWCore.ParameterSet.Config as cms
 
 process = cms.Process('SIM')
+#process = cms.Process('SIM2')
 
 # import of standard configurations
 process.load('Configuration.StandardSequences.Services_cff')

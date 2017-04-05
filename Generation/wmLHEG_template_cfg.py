@@ -5,7 +5,7 @@
 # with command line options: Configuration/GenProduction/python/EXO-RunIISummer15wmLHES-00000-fragment.py --fileout file:EXO-RunIISummer15wmLHES-00000.root --mc --eventcontent RAWSIM,LHE --customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1,Configuration/DataProcessing/Utils.addMonitoring --datatier GEN-SIM,LHE --conditions MCRUN2_71_V1::All --beamspot Realistic50ns13TeVCollision --step LHE,GEN,SIM --magField 38T_PostLS1 --python_filename EXO-RunIISummer15wmLHES-00000_1_cfg.py --no_exec -n 51
 import FWCore.ParameterSet.Config as cms
 
-process = cms.Process('SIM')
+process = cms.Process('GEN')
 
 # import of standard configurations
 process.load('Configuration.StandardSequences.Services_cff')
@@ -24,7 +24,7 @@ process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(100000)
+    input = cms.untracked.int32(50000)
 )
 
 # Input source
@@ -37,7 +37,7 @@ process.options = cms.untracked.PSet(
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
     version = cms.untracked.string('$Revision: 1.19 $'),
-    annotation = cms.untracked.string('Configuration/GenProduction/python/EXO-RunIISummer15wmLHES-00000-fragment.py nevts:100000'),
+    annotation = cms.untracked.string('Configuration/GenProduction/python/EXO-RunIISummer15wmLHES-00000-fragment.py nevts:50000'),
     name = cms.untracked.string('Applications')
 )
 
@@ -111,7 +111,7 @@ process.generator = cms.EDFilter("Pythia8HadronizerFilter",
 
 
 process.externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
-    nEvents = cms.untracked.uint32(100000),
+    nEvents = cms.untracked.uint32(50000),
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),

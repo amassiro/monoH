@@ -18,7 +18,9 @@ config.JobType.psetName = 'SIM_template_cfg.py'
 config.section_('Data')
 #config.Data.inputDataset = '/RSGravToGG_kMpl-001_M-750_TuneCUEP8M1_13TeV-pythia8_magnetOffBS0T_AODSIM_v3/amassiro-crab_monoHWWlvjj-54137679aec40900410ea308c9544bad/USER'
 #config.Data.inputDataset = '/monoHWW-lvjj_GEN_v0/amassiro-crab_monoHWWlvjj-54137679aec40900410ea308c9544bad/USER'
-config.Data.inputDataset = '/monoHWW-lvjj_GEN_v1/amassiro-crab_monoHWWlvjj-54137679aec40900410ea308c9544bad/USER'
+#config.Data.inputDataset = '/monoHWW-lvjj_GEN_v1/amassiro-crab_monoHWWlvjj-54137679aec40900410ea308c9544bad/USER'
+config.Data.inputDataset = '/monoHWW-lvjj_GEN_v2/amassiro-crab_monoHWWlvjj-a7a7a12ee4b4d3a5507b807c54366975/USER'
+
 
 config.Data.inputDBS = 'phys03'
 #config.Data.outputPrimaryDataset = 'monoHWWlvjj-TEST'
