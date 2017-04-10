@@ -7,20 +7,22 @@ config = Configuration()
 import os
 
 config.section_('General')
-config.General.requestName = 'monoHWWlvjj'
+config.General.requestName = 'monoHWWlvjj-GENSIM'
 config.General.transferLogs = True
 config.General.transferOutputs = True
 
 config.section_('JobType')
 config.JobType.pluginName = 'PrivateMC'
 config.JobType.psetName = 'GENSIM_template_cfg.py'
-config.JobType.eventsPerLumi = 10000
+config.JobType.eventsPerLumi = 1000
 
 config.section_('Data')
 config.Data.outputPrimaryDataset = 'monoHWW-lvjj_GENSIM_v1'
 
-config.Data.splitting = 'FileBased'
+config.Data.splitting = 'EventBased'
 config.Data.totalUnits = 50000
+config.Data.unitsPerJob = 1000
+
 
 config.Data.publication = True
 config.Data.publishDBS = 'phys03'
