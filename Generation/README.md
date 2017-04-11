@@ -49,6 +49,12 @@ Publish GEN for later CRAB submission:
     crab submit crab_cfg_SIM.py
     
     
+    gen+sim in one step
+    crab submit crab_cfg_GENSIM.py
+    
+    
+    
+    
 Time for DR (1 and 2):
     
     
