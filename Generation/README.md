@@ -52,6 +52,8 @@ Publish GEN for later CRAB submission:
     gen+sim in one step
     crab submit crab_cfg_GENSIM.py
     
+    DR step 1
+    crab submit crab_cfg_DR_step1.py
     
     
     
