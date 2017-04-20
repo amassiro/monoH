@@ -55,11 +55,16 @@ Publish GEN for later CRAB submission:
     DR step 1   ----> /monoHWW-lvjj_GENSIM_v1/amassiro-crab_monoHWWlvjj-DR1-9c549b5207abdfb5ae0876b07ca1f88d/USER
     crab submit crab_cfg_DR_step1.py
     
-    DR step 2
+    DR step 2   ----> /monoHWW-lvjj_GENSIM_v1/amassiro-crab_monoHWWlvjj-DR2-7acb7139bf84d3a816d33703984a9cf5/USER
     crab submit crab_cfg_DR_step2.py
     crab status crab_monoHWWlvjj-DR2
+
+    AOD step    ----> 
+    crab submit crab_cfg_AOD.py
+    crab status crab_monoHWWlvjj-AOD
+
     
-    
+    cmsRun AOD_template_cfg.py   
     
     
     
