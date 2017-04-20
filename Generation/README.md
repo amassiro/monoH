@@ -52,8 +52,16 @@ Publish GEN for later CRAB submission:
     gen+sim in one step
     crab submit crab_cfg_GENSIM.py
     
-    DR step 1
+    DR step 1   ----> /monoHWW-lvjj_GENSIM_v1/amassiro-crab_monoHWWlvjj-DR1-9c549b5207abdfb5ae0876b07ca1f88d/USER
     crab submit crab_cfg_DR_step1.py
+    
+    DR step 2
+    crab submit crab_cfg_DR_step2.py
+    crab status crab_monoHWWlvjj-DR2
+    
+    
+    
+    
     
     
     
