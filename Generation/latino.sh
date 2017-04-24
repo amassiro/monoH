@@ -18,10 +18,66 @@ export EVENTS=$1
 
 
 
-export MYFILE=file:/afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/EXO-RunIISpring16MiniAODv2-05058.root
+# export MYFILE=file:/afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/EXO-RunIISpring16MiniAODv2-05058.root
 ### Type              Module                  Label   Process
 ### LHEEventProduct   "externalLHEProducer"   ""      "LHE"
 
+
+export MYFILE="/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_1.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_10.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_11.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_12.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_13.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_14.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_15.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_16.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_17.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_18.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_19.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_2.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_20.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_21.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_22.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_23.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_24.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_25.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_26.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_27.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_28.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_29.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_3.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_30.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_31.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_32.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_33.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_34.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_35.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_36.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_37.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_38.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_39.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_4.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_40.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_41.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_42.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_43.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_44.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_45.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_46.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_47.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_48.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_49.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_5.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_6.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_7.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_8.root,\
+/store/user/amassiro/monoHWWlvjj/Publish/AOD/monoHWW-lvjj_GENSIM_v1/crab_monoHWWlvjj-AOD/170420_163228/0000/EXO-RunIISpring16MiniAODv2-05058_9.root"
+
+
+    
+    
+    
+    
 
 rm -rf latino_stepB_mc_numEvent${EVENTS}.root
 

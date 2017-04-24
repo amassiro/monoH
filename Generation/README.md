@@ -59,7 +59,7 @@ Publish GEN for later CRAB submission:
     crab submit crab_cfg_DR_step2.py
     crab status crab_monoHWWlvjj-DR2
 
-    AOD step    ----> 
+    AOD step    ----> /monoHWW-lvjj_GENSIM_v1/amassiro-crab_monoHWWlvjj-AOD-b59cb78551aff289588aa5c69db4a3a1/USER
     crab submit crab_cfg_AOD.py
     crab status crab_monoHWWlvjj-AOD
 
@@ -91,6 +91,7 @@ Latino
     
     sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh 400
     sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh 1000
+    sh /afs/cern.ch/user/a/amassiro/work/Latinos/Framework/CMSSW_8_0_14/src/monoH/Generation/latino.sh -1
     
     r00t latino_stepB_mc_numEvent1000.root
     
@@ -98,6 +99,4 @@ Latino
     latino->Draw("std_vector_fatjet_massdrop[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
     
     
-    
-    
-    
+  
