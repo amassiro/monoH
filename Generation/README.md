@@ -98,5 +98,26 @@ Latino
     latino->Draw("std_vector_fatjet_prunedmass[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
     latino->Draw("std_vector_fatjet_massdrop[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
     
+    latino->Draw("std_vector_lepton_pt[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
     
-  
+    latino->Draw("std_vector_lepton_pt[0]:std_vector_fatjet_prunedmass[0]", "std_vector_fatjet_pt[0]>0 && std_vector_lepton_pt[1] <=0 ");
+    
+    
+    
+    
+    r00t latino_stepB_mc.root
+    
+    
+    
+    
+    gardener.py l1selfiller --kind 2 --cmssw Full2016 --idEleKind cut_WP_Tight80X    latino_stepB_mc.root     latino_monoHWW_lep1.root  
+    
+    latino_monoHWW_lep1.root
+    
+    
+    
+    
+    
+    
+    
+    
